@@ -1,9 +1,7 @@
-# DeepL1
+# UTSxCUCAI Team 2 - Predictive Maintenance for Jet Engines Using DeepL
 
-"""
-Arjan, Max, Kushad, Dora, Sidney, Andi
 
-[ ] "" > < \
+Arjan Waraich, Max Huddleston, Kushad Manikandan, Dora Li, Sidney Shu, Andi Guo
 
 ## Python
 Brief Project Description:
