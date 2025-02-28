@@ -1,15 +1,14 @@
 ##
 
 import pandas as pd
- 
 
-# [ ] "" > < \ (my keyboard is buggy, I need these code operators stored here temp.)
 
-# Load training set for FD1
+# Load training set for FD1 - this is for Arjans Filepath - ensure your filepath is correctly entered syntactically, locally on your computer
 personal_fp_train_set = r"C:\Users\arjan\OneDrive_Arj\Desktop\Programming_Arjan\ICS3U Personal Project\CMAPSS Dataset\train_FD001.txt"
 
 # Load the RUL (remaining useful lifetime) vector in respect for FD1
 
+## Once again, Arjan's filepath
 personal_fp_RUL = r"C:\Users\arjan\OneDrive_Arj\Desktop\Programming_Arjan\ICS3U Personal Project\CMAPSS Dataset\RUL_FD001.txt"
 
 ## These are the case sensitive column names that are provided from NASAs CMAPPS Dataset, specifically in the file: train_FD001.txt
