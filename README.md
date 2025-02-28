@@ -1,7 +1,7 @@
 # DeepL1
 
 """
-Arjan W.
+Arjan, Max, Kushad, Dora, Sidney, Andi
 
 [ ] "" > < \
 
