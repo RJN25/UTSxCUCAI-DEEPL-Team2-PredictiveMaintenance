@@ -122,3 +122,41 @@ with open(personal_fp_train_set, 'r') as f:
 ## Now I will split the data into training and testing sets, and then apply the models
 
 # from sklearn.model_selection import train_test_split
+
+# Everything below this is stuff Sidney added
+# We're using numpy and making the model ourself right? And not using sklearn or tensorflow or something?
+# I copied these functions from my stroke predictor code
+# That code doesn't always work but I'm pretty sure it's not a problem with these functions
+# Actually I ran it again a few times without changing much and it worked pretty well so these functions should be fine
+
+def reLu(x):
+  # applies relu function by returning whichever is bigger for each element in matrix: x or 0
+  # if x is positive, x is greater and x is returned
+  # if x is negative, 0 is greater and 0 is returned
+  return np.maximum(0, x)
+
+def d_relu(a):
+  # derivative of relu
+  # derivative is 1 if a > 1, 0 if a < 0
+  return np.maximum(a>1,0)
+
+def dZ(W,dZ,d_func,Z):
+  # Z parameter is the Z that you're trying to find the derivative of
+  # dZ parameter is the derivative of Z in the layer to the right
+  # Z parameter is the Z that you're finding the derivative of
+  # d_func is the derivative of that layer's activation function
+  # So if you're trying to find dZ2:
+  # W should be W3, dZ should be dZ3, Z should be Z2
+  # d_func should be derivative of activation function of layer 2
+  return np.dot(W.T, dZ) * d_func(Z)
+
+def dW(dZ,A,m):
+  #derivative of W in current layer
+  #dZ is derivative of current layer Z, A is previous layer activations
+  #m is number of training examples
+  return np.dot(dZ, A.T)/m
+
+def db(dZ,m):
+  #derivative of b
+  #dZ is derivative of current layer Z, m is number of training examples
+  return np.sum(dZ,axis = 1,keepdims = True)/m
