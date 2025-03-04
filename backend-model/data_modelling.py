@@ -1,7 +1,7 @@
 ##
 
 import pandas as pd
-
+from regression_functions.py import * # THis will import all the defined regression functions from regression_functions.py
 
 # Load training set for FD1 - this is for Arjans Filepath - ensure your filepath is correctly entered syntactically, locally on your computer
 personal_fp_train_set = r"C:\Users\arjan\OneDrive_Arj\Desktop\Programming_Arjan\ICS3U Personal Project\CMAPSS Dataset\train_FD001.txt"
