@@ -2,27 +2,13 @@
 ## **Remaining Useful Lifetime Prediction Given Sensor Analytics**
 
 
-Arjan Waraich, Max Huddleston, Kushad Manikandan, Dora Li, Sidney Shu, Andi Guo
+Arjan Waraich (waraicharjan97@gmail.com), Max Huddleston, Kushad Manikandan, Dora Li, Sidney Shu, Andi Guo
 
 ## Python
-Brief Project Description:
-Using DL, creating a predictive model for multi-class failure of jet engines
-for predictive maintenance in the aerospace industry, along with a regression for
-RUL (remaining useful lifetime) of the machine using time-series data provided
-from NASAs CMAPPS Simulated Jet Engine Dataset
-
-Current Step: Train and Deploy Model (Feb 21st, 2025)
-
-## Model Input: (Next Steps)
- - Append new data
- - Provide user-controlled in randomly generated data with deviations (for sake of demonstrating model accuracy) - (program random anomalies)
- - Inputs: # of model anomalies, # of rows to randomly generate, # deviation (provided a scale), time-series data
- - Potential UI
-
-## Model Output:
-Multi-Class Classification → Normal, minor fault, major fault, imminent failure.
-Regression → Predicted remaining useful life (RUL) of the engine.
-
+Project Description:
+Using DL, creating a predictive model for failure classification of jet engines
+for predictive maintenance in the aerospace industry, via LSTM (long short-term memory) models, Random Forest Regression, and XGBoost (extreme gradient boosting). Model output is a 1-dimensional feautr which is predicted RUL (remaining useful lifetime) of the machine using time-series data provided - and how much of its operation at a specific power capacity remains, provided 21 different types of sensor analytics.
+Adapted from NASAs CMAPPS Simulated Jet Engine Dataset
 
 ## Dataset Details:
 
@@ -55,5 +41,6 @@ Fault Modes: TWO (HPC Degradation, Fan Degradation)
 ## Sources Consulted:
  - Dataset: https://data.nasa.gov/Aerospace/CMAPSS-Jet-Engine-Simulated-Data/ff5v-kuh6/about_data
  - Pandas documentation: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html
-   (Pandas is quite nice for handling and preprocessing data for models to run on)
+ - Model Guidance: https://medium.com/@rohit.malhotra67/predictive-maintenance-on-nasas-turbofan-engine-degradation-dataset-cmapss-c066ee427931
+
 """
