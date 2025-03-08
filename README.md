@@ -1,4 +1,4 @@
-# UTSxCUCAI Team 2 - Predictive Maintenance for Jet Engines Using DeepL
+# UTS x CUCAI Showcase Project - Predictive Maintenance for Jet Engines Using DeepL
 ## **Remaining Useful Lifetime Prediction Given Sensor Analytics**
 
 
