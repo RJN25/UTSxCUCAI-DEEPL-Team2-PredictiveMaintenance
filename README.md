@@ -7,7 +7,7 @@ Arjan Waraich (waraicharjan97@gmail.com), Max Huddleston, Kushad Manikandan, Dor
 ## Python
 Project Description:
 
-This project was built for the first annual CUCAI (Canadian Undergraduate Conference in Artificial Intelligence) in 2025, as a showcase project, by 5 UTS (University of Toronto Schools) High School students who are passionate about AI, machine learning, and data analytics.
+This project was built for the first annual CUCAI (Canadian Undergraduate Conference in Artificial Intelligence) in 2025, as a showcase project, by 6 UTS (University of Toronto Schools) High School students (one of two teams) who are passionate about AI, machine learning, and data analytics.
 
 Using DL, we created a predictive model for failure classification of jet engines
 for predictive maintenance in the aerospace industry, via LSTM (long short-term memory) models, Random Forest Regression, and XGBoost (extreme gradient boosting). Model output is a 1-dimensional feautr which is predicted RUL (remaining useful lifetime) of the machine using time-series data provided - and how much of its operation at a specific power capacity remains, provided 21 different types of sensor analytics.
