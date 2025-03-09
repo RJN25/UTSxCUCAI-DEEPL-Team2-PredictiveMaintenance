@@ -1,8 +1,10 @@
-# UTS x CUCAI Showcase Project - Predictive Maintenance for Jet Engines Using DeepL
-## **Remaining Useful Lifetime Prediction Given Sensor Analytics**
+# UTS x CUCAI Showcase Project - Generating Predictive Maintenance RUL Analytics for Nasa Turbofan Jet Engines Using LSTM, XGBoost, and Random Forest Architecture
 
 
-Arjan Waraich (waraicharjan97@gmail.com), Max Huddleston, Kushad Manikandan, Dora Li, Sidney Shu, Andi Guo
+## **RUL - Remaining Useful Lifetime | Predicted Using Sensor Data**
+
+
+Arjan Waraich (waraicharjan97@gmail.com), Max Huddleston, Kushad Manikandan, Dora Li, Sidney Shu
 
 ## Python
 Project Description:
