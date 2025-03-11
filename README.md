@@ -12,7 +12,7 @@ Project Description:
 This project was built for the first annual CUCAI (Canadian Undergraduate Conference in Artificial Intelligence) in 2025, as a showcase project, by 6 UTS (University of Toronto Schools) High School students (one of two teams) who are passionate about AI, machine learning, and data analytics.
 
 Using DL, we created a predictive model for failure classification of jet engines
-for predictive maintenance in the aerospace industry, via LSTM (long short-term memory) models, Random Forest Regression, and XGBoost (extreme gradient boosting). Model output is a 1-dimensional feautr which is predicted RUL (remaining useful lifetime) of the machine using time-series data provided - and how much of its operation at a specific power capacity remains, provided 21 different types of sensor analytics.
+for predictive maintenance in the aerospace industry, via LSTM (long short-term memory) models, Random Forest Regression, and XGBoost (extreme gradient boosting). Model output is a 1-dimensional feature which is predicted RUL (remaining useful lifetime) of the machine using time-series data provided - and how much of its operation at a specific power capacity remains, provided 21 different types of sensor analytics.
 Adapted from NASAs CMAPPS Simulated Jet Engine Dataset.
 
 ## Dataset Details:
