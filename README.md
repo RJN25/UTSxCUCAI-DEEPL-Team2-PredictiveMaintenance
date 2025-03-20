@@ -9,6 +9,8 @@ Arjan Waraich (waraicharjan97@gmail.com), Max Huddleston, Kushad Manikandan, Dor
 ## Python
 Project Description:
 
+See the Project Paper Attached in the Main Github Directory, Titled: FC_ProphetJet: Predictive Maintenance Modelling Using LSTM, Random Forest, and XGBoosting to Forecast RUL Metrics of NASA Turbofan Jet Engines
+
 This project was built for the first annual CUCAI (Canadian Undergraduate Conference in Artificial Intelligence) in 2025, as a showcase project, by 6 UTS (University of Toronto Schools) High School students (one of two teams) who are passionate about AI, machine learning, and data analytics.
 
 Using DL, we created a predictive model for failure classification of jet engines
